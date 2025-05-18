@@ -1,0 +1,247 @@
+body {
+  font-family: sans-serif;
+  background-color: #4C5E62;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.label {
+  text-align: center;
+}
+.gradient-image2 {
+  width: 100%;
+  height: 30px;
+  background-image: url('https://cdn-hogwartslegacy.warnerbrosgames.com/static/header-bg.jpg');
+}
+.textinimg2 {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.textinimg2 a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #a78749;
+}
+.textinimg2 a:hover{
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+.gradient-image0 {
+  width: 100%;
+  height: 450px;
+  background-image: 
+  linear-gradient(to top, #4C5E62, rgba(0, 0, 0, 0)),
+  url('https://i.postimg.cc/GhGXm59G/scott-shi-24-1.webp');
+  background-size: cover;
+  background-position: center;
+}
+.gradient-image {
+  width: 100%;
+  height: 450px;
+  background-image: 
+  linear-gradient(to top, #4C5E62, rgba(0, 0, 0, 0)),
+  url('https://i.postimg.cc/FsS88n4S/image.png');
+  background-size: cover;
+  background-position: center;
+}
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header h1 {
+  font-size: 40px;
+  text-align: center;
+}
+main h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+header {
+    background-color: #4C5E62;
+    width: 100%;
+    color: white; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000
+}
+.updesc {
+  color: white;
+}
+main {
+      background: linear-gradient(to bottom, #4C5E62, rgba(106, 79, 134, 0) 30%, rgba(106, 79, 134, 0) 70%, #4C5E62),
+                url('https://cdn-hogwartslegacy.warnerbrosgames.com/home/bg-bottom-m.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-color: #4C5E62;
+    width: 100%;
+}
+footer {
+  background-color: #4C5E62;
+  width: 100%;
+}
+.paddingtext {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.paddingtext1 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.paddingtext2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+hr {
+  border: 0;
+  border-top: 3px solid rgb(55, 72, 87);
+}
+main img {
+  justify-content: center;
+  height: 335px;
+  width: 560px;
+  border: 3px solid #5B797D;
+  border-radius: 4px;
+  margin: 20px;
+}
+.info-box {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-left: 24px;
+    max-width: 900px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.endingbox {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1300px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.startstory {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    max-width: 1200px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story0 {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    font-size: 17px;
+    text-align: center;
+    max-width: 1300px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story1 {
+    background-color: #4C5E62;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1050px;
+    color: #dbdbdb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.divline0 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divline {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.divline2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.endline {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+footer {
+  background: #4C5E62;
+background: linear-gradient(360deg, #4C5E62 0%, rgba(59, 42, 87, 1) 0%, #4C5E62 100%);
+}
+.endbox {
+    background-color: #576A6B;
+    border-radius: 12px;
+    outline: 4px solid #5B797D;
+    outline-offset: -7px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1300px;
+    color: #dbdbdb;
+    margin-top: 30px;
+}
+.endbox h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+.row img {
+  width: 500px;
+  height: 250px;
+}
